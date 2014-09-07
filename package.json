@@ -1,0 +1,11 @@
+{
+  "name": "emailExamples",
+  "version": "0.0.0",
+  "description": "",
+  "main": "basicEmail.js",
+  "author": "Joey Cozza",
+  "dependencies": {
+    "nodemailer": "^1.2.2",
+    "swig-email-templates": "^1.3.0"
+  }
+}
