@@ -11,7 +11,7 @@ var transporter = nodemailer.createTransport({
 
 var emailInfo = {
 	from: 'Tester <testingnodemailer2000@gmail.com>', // sender address
-	to: 'joeycozza@gmail.com', // comma delimited list of receivers
+	to: 'INSERT AN EMAIL ADDRESS HERE, PREFERABLY YOUR OWN TO TEST WITH!', // comma delimited list of receivers
 	subject: 'Testing McTesterton',
 	test: 'My test is the BEST!', //plaintext version
 	html: 'My test is the <b>BEST!</b> πø˚´ø˜∂∂∑œ∑åˆ∆≈ œß¥´çˆ∂ç' // html body

@@ -15,7 +15,7 @@ emailTemplates(options, function(err, render) {
 	render('meatball-sandwich.html', variables, function(err, html, text) {
 		var emailInfo = {
 			from: 'Node Meetup <testingnodemailer2000@gmail.com>',
-			to: 'joeycozza@gmail.com',
+			to: 'INSERT AN EMAIL ADDRESS HERE, PREFERABLY YOUR OWN TO TEST WITH!',
 			subject: 'Testing a Template',
 			text: text,
 			html: html

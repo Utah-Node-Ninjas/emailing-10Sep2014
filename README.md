@@ -5,9 +5,10 @@ Instructions to Run Examples
 ----------------------------
 1. Clone the repo  
 2. Run 'npm install' to download the dependencies  
-3. a) Run 'node basicEmail.js'  
+3. Input your own email address in the "to" field in basicEmail.js line 14, and advancedEmail.js line 18  
+4. a) Run 'node basicEmail.js'  
    b) Run 'node advancedEmail.js'  
-4. Play around with different options   
+5. Play around with different options   
 
 
 Helpful Urls:
