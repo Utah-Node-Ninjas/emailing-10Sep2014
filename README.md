@@ -13,7 +13,7 @@ Instructions to Run Examples
 
 Helpful Urls:
 ------------
-nodemailer - [http://www.nodemailer.com/](http://www.nodemailer.com/)  
+Nodemailer - [http://www.nodemailer.com/](http://www.nodemailer.com/)  
 swig-email-templates github - [https://github.com/andrewrk/swig-email-templates](https://github.com/andrewrk/swig-email-templates)  
 swig-email-templates explanation - [http://andrewkelley.me/post/swig-email-templates.html](http://andrewkelley.me/post/swig-email-templates.html)  
 Email CSS Compatibility - [https://www.campaignmonitor.com/css/](https://www.campaignmonitor.com/css/)  
