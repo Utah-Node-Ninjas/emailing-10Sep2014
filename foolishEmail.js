@@ -9,14 +9,28 @@ var transporter = nodemailer.createTransport({
 	}
 });
 
+
+var meatballCount = 25;
+var	otherVar = 'This is my other var';
+
+//THIS IS HORRIBLY PAINFUL AND DISGUSTING AND TOTALLY UNMAINTAINABLE
+var myHTML = '';
+myHTML += '<h1 style="font-size: 15px; color:blue">Hello, This is a test</h1>';
+if(meatballCount > 9000) {
+	myHTML += '<p style="font-size:25px; color:#880000">IT\'S OVER 9000!!!!!</p>';
+} else {
+	myHTML += '<p style="color:deeppink">I have ' + meatballCount + ' meatballs</p>';
+}
+myHTML += '<p>' + otherVar + '</p>';
+
+
 var emailInfo = {
 	from: 'Tester <testingnodemailer2000@gmail.com>', // sender address
 	to: 'INSERT AN EMAIL ADDRESS HERE, PREFERABLY YOUR OWN TO TEST WITH!', // comma delimited list of receivers
-	subject: 'Just a basic email',
-	html: '<p>My test is the <b>BEST!</b>˚´ø˜∂∂∑œ∑åˆ∆≈</p>' //plaintext version
+	subject: '...an html email...',
+	html: myHTML
 };
 
-// send mail with defined transport object
 transporter.sendMail(emailInfo, function(error, info){
 	if(error){
 		console.log(error);
